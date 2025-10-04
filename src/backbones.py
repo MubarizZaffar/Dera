@@ -20,7 +20,7 @@ class DinoV2(torch.nn.Module):
     
     def __init__(
         self,
-        backbone_name="dinov2_vitb14",
+        backbone_name="dinov2_vitl14",
         unfreeze_n_blocks=2,
         reshape_output=True,
     ):
