@@ -33,7 +33,7 @@ def get_trained_dera(backbone_name="dinov2", output_dim=12288):
     aggregator = BoQ(
         in_channels=backbone.out_channels,  # make sure the backbone has out_channels attribute
         proj_channels=512,
-        num_queries=64,
+        num_queries=128,
         num_layers=2,
         row_dim=output_dim//512, # 32 for dinov2
     )
