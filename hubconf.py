@@ -45,7 +45,7 @@ def get_trained_dera(backbone_name="dinov2", output_dim=12288):
     
     vpr_model.load_state_dict(
         torch.hub.load_state_dict_from_url(
-            "https://drive.google.com/file/d/1AKVBzd7gEHvKGhV4IO0IlPrjl6D7dgcN/view?usp=sharing",
+            "https://github.com/MubarizZaffar/Dera/releases/download/dera_v1/boq_dinov2l14_ocd.ckpt",
             map_location=torch.device('cpu')
         )
     )
