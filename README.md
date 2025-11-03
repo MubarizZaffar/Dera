@@ -1,12 +1,12 @@
 # What is Dera?
-This is a finetuned BoQ [1] model trained on two different types of data sources for visual place recognition. It is also the name of the city where I was born. :)
+This is a finetuned BoQ [1] model trained on two different types of data sources for visual place recognition. It is also the name of my hometown. :)
 
 The two data sources are:
 
 - Google street view data from around the world which is usually considered GPS-accurate but does not contain much variations of the same place.
 - Mapillary data from around the world, which was verified by the author for accuracy using geometric verification with MAST3R and field-of-view overlap. This data is much more diverse than GSV.
 
-Please feel free to use this model under CC BY license.
+Please feel free to use this model under CC BY license. I intend to continue updating the model checkpoint on HuggingFace over time.
 
 # How to use this repo?
 The file dera.py was used for the croco-dl benchmark. It is compatible with hloc, Lamar, and crocodl pipelines. You can for example copy this to /hloc/extractors/ in the hloc codebase [2]. 
